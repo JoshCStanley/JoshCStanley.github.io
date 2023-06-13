@@ -1,0 +1,366 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:16px;
+}
+img,
+iframe {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+body {
+	font-family: arial, sans-serif;
+}
+body{
+	background-color: lightgoldenrodyellow;
+}
+header{
+	background-color: darkgoldenrod;
+}
+header, footer {
+	text-align:center;
+}
+h1{
+	font-size:50px;
+	color:black;
+	text-transform:uppercase;
+}
+h5 {
+	font-size: 25px;
+	text-align: center;
+}
+h2{
+	font-size:30px;
+	font-family:'lato',sans-serif;
+	text-transform: uppercase;
+}
+h1,h2,p,li {
+	padding-bottom: 0.5em;
+}
+
+h3{
+	font-size: 40px;
+	text-align: center;
+    margin-bottom: 10px;
+	text-transform:uppercase;
+}
+h4{
+	text-align: center;
+}
+.item {
+	background-color:rgba(184,134,11,.5);
+	padding: 1%;
+	margin:1%;
+	margin-bottom:20px;
+	margin-top:20px;
+	border-radius:10px;
+	box-shadow: 0 0 10px; 
+}
+main {
+	max-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.item li {
+    margin-top: 10px;
+	margin-left: 25px;
+}
+blockquote{
+	 font-family: Lobster;
+	text-transform:uppercase;
+}
+nav{
+	text-align:center;
+}
+nav li{
+	display: inline-block;
+}
+nav li a {
+	background: lightgoldenrodyellow;
+	color: black;
+	padding:5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+nav a:hover {
+	background: #FFCA00;
+}
+body{
+	background-color: lightgoldenrodyellow;
+	background-image:url("images/iceland river.jpg");
+	background-repeat: no-repeat;
+	background-size:100;
+}
+/* responsiveness */
+@media screen and (min-width: 500px) {
+	body{
+		background-color:lightgoldenrodyellow;
+		font-family: arial;
+	}
+	.item{
+		background-color:rgba(184,134,11,.7);
+	}
+	.square{
+		background-color:rgba(184,134,11,.7);
+	}
+	h2{
+		font-family: 'arial', regular;
+	}
+
+}
+@media screen and (min-width: 768px) {
+	body{
+	background-color: lightgoldenrodyellow;
+	background-image:url("images/website background.png");
+	background-repeat: repeat;
+	background-size:100;	
+	}
+	.item {
+		width: 100%;
+		background-color:rgba(184,134,11,.7); float: left;
+	}
+	.square{
+		width: 100%;
+		background-color:rgba(184,134,11,.7); float: left;
+	}
+	footer {
+		color:#000000;
+		clear:both;
+	}
+
+
+
+
+div{
+  background-color: rgba(184,134,11,.7);
+	
+
+}
+	/*craigs help*/
+
+     .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	  
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+		   background-color: rgba(184,134,11,.0);
+		  
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #00000;
+      border-radius: 4px;
+    }
+
+    .form-group textarea {
+      height: 100px;
+    }
+
+    .form-group button {
+      background-color:lightgoldenrodyellow;
+      color:black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color:darkgoldenrod;
+    }
+}
+
+
+/** logo **/
+
+.logo {
+	
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+
+
+
+
+/** dropdown menu **/
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/** square article **/
+
+.square {
+	padding: 1%;
+	margin:1%;
+	margin-bottom:20px;
+	margin-top:20px;
+	border-radius:10px;
+	width: 31.3%;
+    background-color:rgba(184,134,11,.7); 
+	float: left;
+	box-shadow: 0 0 10px;
+}
+
+
+/** PRODUCTS **/
+
+.card {
+  padding: 1%;
+  margin:1%;
+  margin-bottom:20px;
+  margin-top:20px;
+  border-radius:10px;
+  box-shadow: 0 0 10px;
+  max-width: 300px;
+  text-align: left;
+  font-family: arial;
+  float: left;
+}
+
+.price {
+  color: black;
+  font-size: 24px;
+
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+
+}
+
+.card button:hover {
+  background-color: #555;
+}
